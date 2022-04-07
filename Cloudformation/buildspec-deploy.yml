@@ -13,9 +13,10 @@ phases:
       - echo Build started on `date`
       - echo Compiling the Node.js code
       - zip src.zip .*
+      - ls
   post_build:
     commands:
       - echo Build completed on `date`
 artifacts:
   files:
-    - ./
+    - src.zip
