@@ -20,4 +20,4 @@ phases:
       - ls
 artifacts:
   files:
-    - src.zip
+    - **/*
