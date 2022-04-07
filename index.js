@@ -1,5 +1,5 @@
 import puppeteer from "puppeteer"
-
+import 'dotenv/config'
 const STD_TIMEOUT = 10000;
 
 
