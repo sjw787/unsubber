@@ -4,6 +4,7 @@ phases:
   install:
     commands:
       - echo Installing Mocha...
+      - ls
   pre_build:
     commands:
       - echo Installing source NPM dependencies...
